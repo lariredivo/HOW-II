@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
   <title>Portfólio</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -35,38 +36,67 @@
       <div class="wrap-inicio" id="inicio">
         <div class="inicio-topo">
           <p class="nome">Olá,</br> meu nome é Larissa :)</p>
-          <img class="imagem-lari" src="/código/img/foto01.jpg" alt="" class="foto-lari">
+          <img class="imagem-lari" src="/img/foto01.jpg" alt="" class="foto-lari">
         </div>
         <div class="container-icones">
           <p>Para me acompanhar:</p>
-          <a href="https://github.com/lariredivo" target="_blank"><img class="icone-github" src="/código/img/icons8-github.gif" alt="icone github"></a>
-          <a href="https://www.linkedin.com/in/larissa-redivo-126661137/" target="_blank"><img class="icone-linkedin" src="/código/img/icons8-linkedin-circundado.gif" alt="icone linkedin"></a>
-          <a href="https://twitter.com/RedivoLari" target="_blank"><img class="icone-twitter" src="/código/img/icons8-twitter.gif" alt="icone twitter"></a>
+          <a href="https://github.com/lariredivo" target="_blank"><img class="icone-github" src="img/icons8-github.gif" alt="icone github"></a>
+          <a href="https://www.linkedin.com/in/larissa-redivo-126661137/" target="_blank"><img class="icone-linkedin" src="img/icons8-linkedin-circundado.gif" alt="icone linkedin"></a>
+          <a href="https://twitter.com/RedivoLari" target="_blank"><img class="icone-twitter" src="img/icons8-twitter.gif" alt="icone twitter"></a>
         </div>
       </div>
     </div>
 
     <div class="container-sobre-mim">
-      <h2 class="titulo-sobre" id="sobre">Sobre mim</h2>
-      <p class="texto-sobre">Estagiária na equipe de gráfico do Nexo Jornal, desenvolvedora web em formação, em constante aprendizado e em recente transição de carreira.</p>
-      <p class="texto-sobre">Estou buscando aprender mais sobre esse universo, principalmente, em HTML, CSS e JavaScript de forma online e estudando Análise e Desenvolvimento de Sistemas (Univali).</p>
-      <p class="texto-sobre">Curiosa, questionadora, paciente, buscando ser uma força positiva no mundo!</p>
+      <div class="wrap-titulo">
+        <h2 class="titulo-sobre" id="sobre">Sobre mim</h2>
+      </div>
+
+      <div class="wrap-texto-sobre">
+        <p class="texto-sobre">Estagiária na equipe de gráfico do Nexo Jornal, desenvolvedora web em formação, em constante aprendizado e em recente transição de carreira.</p>
+        <p class="texto-sobre">Estou buscando aprender mais sobre esse universo, principalmente, em HTML, CSS e JavaScript de forma online e estudando Análise e Desenvolvimento de Sistemas (Univali).</p>
+        <p class="texto-sobre">Curiosa, questionadora, paciente, buscando ser uma força positiva no mundo!</p>
+      </div>
+
     </div>
 
     <div class="container-habilidades" id="habilidades">
       <h2 class="titulo-habilidades">Minhas habilidades</h2>
-      <p class="texto-habilidades">As tecnologias que eu uso no meu trabalho:
-        HTLM5, CSS3, JavaScript, Git, Github, Vs Code,Resposividade Web, WordPress</p>
+      <div class="wrap-texto-habilidades">
+        <p class="texto-habilidades">As tecnologias que eu uso no meu trabalho:
+        <div class="habilidades-wrap">
+          <div class="hab-html">HTML5</div>
+          <div class="hab-css">CSS3</div>
+          <div class="hab-git">Git</div>
+          <div class="hab-github">Github</div>
+          <div class="hab-vs">Vs Code</div>
+          <div class="hab-wordpress">Wordpress</div>
+        </div>
+      </div>
     </div>
 
     <div class="container-projetos" id="projetos">
-      <h2 class="titulo-projetos">Projetos</h2>
-      <p class="texto-projetos">Você pode acompanhar meus projetos aqui:</p>
+      <div class="wrap-titulo-projetos">
+        <h2 class="titulo-projetos">Projetos</h2>
+      </div>
+      <div class="wrap-texto-projetos">
+        <p class="texto-projetos">Você pode acompanhar meus projetos aqui:</p>
+        <p class="item-projeto"><a target="_blank" class="item-projeto" href="https://www.nexojornal.com.br/especial/2021/12/28/A-origem-dos-principais-fabricantes-de-vacinas-contra-a-covid-19-no-Brasil">A origem dos principais fabricantes de vacina contra a covid-19 no Brasil</a></p>
+        <p class="item-projeto"><a target="_blank" class="item-projeto" href="https://www.nexojornal.com.br/grafico/2021/12/15/O-colapso-da-Uni%C3%A3o-Sovi%C3%A9tica-e-seu-impacto-nas-ex-rep%C3%BAblicas">O colapso da União Soviética e seu impaco nas ex-repúblicas</a></p>
+        <p class="item-projeto"><a target="_blank" class="item-projeto" href="https://www.nexojornal.com.br/grafico/2022/02/10/Quem-s%C3%A3o-as-pessoas-em-inseguran%C3%A7a-alimentar-no-Brasil">Quem são as pessoas em insegurança alimentar no Brasil</a></p>
+        <p class="item-projeto"><a target="_blank" class="item-projeto" href="https://www.nexojornal.com.br/grafico/2022/02/15/A-trajet%C3%B3ria-dos-irm%C3%A3os-Timotheo-precursores-do-modernismo">A trajetória dos irmãos Timotheo, precursores do modernismo</a></p>
+        <p class="item-projeto"><a target="_blank" class="item-projeto" href="https://www.nexojornal.com.br/grafico/2022/06/08/A-pobreza-menstrual.-E-seus-impactos-no-Brasil-e-no-mundo">A pobreza mentrual. E seus impactos no Brasil e no mundo</a></p>
+        <p class="item-projeto"><a target="_blank" class="item-projeto" href="https://www.nexojornal.com.br/especial/2022/05/11/Conhe%C3%A7a-os-pr%C3%A9-candidatos-%C3%A0-Presid%C3%AAncia-nas-elei%C3%A7%C3%B5es-de-2022">Conheça os pré-candidatos à Presidência em 2022</a></p>
+      </div>
     </div>
 
     <div class="container-contato" id="contato">
-      <h2 class="titulo-contato">Contato</h2>
       <p class="texto-contato">Sinta-se à vontade para me enviar uma mensagem sobre suas ideias e como podemos trabalhá-las.</p>
+      <div class="wrap-icones">
+        <a href="https://github.com/lariredivo" target="_blank"><img class="icone-github" src="img/github.png" alt="icone github"></a>
+        <a href="https://www.linkedin.com/in/larissa-redivo-126661137/" target="_blank"><img class="icone-linkedin" src="img/linkedin.png" alt="icone linkedin"></a>
+        <a href="https://twitter.com/RedivoLari" target="_blank"><img class="icone-twitter" src="img/twitter.png" alt="icone twitter"></a>
+      </div>
     </div>
   </main>
   <script src="script.js"></script>
