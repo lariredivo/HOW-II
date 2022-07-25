@@ -123,6 +123,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
 }
 
 .imagem-lari{
@@ -137,10 +138,12 @@ nav {
   display: flex;
   margin-top: 60px;
   justify-content: center;
+  margin-bottom: 110px;
 }
 
 .wrap-inicio {
 display: grid;
+height: 100vh;
 }
 
 .container-icones p {
@@ -153,4 +156,132 @@ display: grid;
 .icone-github, .icone-linkedin, .icone-twitter {
   width: 70px;
   margin-left: 30px;
+}
+
+.container-sobre-mim{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+}
+
+.wrap-titulo {
+  background-color: #EBF9A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titulo-sobre {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.texto-sobre {
+  font-family: 'Zilla Slab', serif;
+  font-size: 26px;
+  margin: 90px;
+}
+
+.container-habilidades {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EBF9A8;
+}
+
+.titulo-habilidades {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;  background-color: #EBF9A8;
+  margin-left: 20px;
+  margin-top: 190px;
+}
+
+.texto-habilidades {
+  font-family: 'Zilla Slab', serif;
+  font-size: 26px;
+  margin: 90px;
+}
+
+.habilidades-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.hab-html, .hab-css, .hab-git, .hab-github, .hab-vs, .hab-wordpress{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.container-projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+}
+
+.titulo-projetos{
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 190px;
+}
+
+.wrap-titulo-projetos {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-texto-projetos {
+  font-family:'Zilla Slab', serif;
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
+  padding: 60px;
+  background-color: #EBF9A8;
+  height: 100vh;
+}
+
+.item-projeto {
+  font-family:'Zilla Slab', serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline solid #867290 3px;
+}
+
+.item-projeto:hover {
+  text-decoration-color: rgb(211, 105, 19);
+
+}
+
+.container-contato {
+  background-color: #EBF9A8;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 60px;
+  height: 100vh;
+}
+
+.texto-contato {
+  margin: 50px
+}
+
+.wrap-icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
